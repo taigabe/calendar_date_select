@@ -4,7 +4,8 @@ Date.months = $w("Gener Febrer Març Abril Maig Juny Juliol Agost Setembre Octub
 Date.first_day_of_week = 1
 
 _translations = {
-  "OK": "Acceptar",
-  "Now": "Ara",
-  "Today": "Avui"
+    "OK": "Acceptar",
+    "Now": "Ara",
+    "Today": "Avui",
+    "Clear": "Esborrar"
 }

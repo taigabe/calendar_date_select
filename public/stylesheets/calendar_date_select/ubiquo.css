@@ -26,6 +26,13 @@ iframe.ie6_blocker {
 	font:12px "Trebuchet MS", sans-serif;
 }
 
+.calendar_date_select .cds_footer {
+    background-color: black;
+    padding:3px;
+    font-size:12px;
+    text-align:center;
+}
+
 .calendar_date_select table {
  	margin: 0px;
  	padding: 0px;
@@ -42,7 +49,7 @@ iframe.ie6_blocker {
 }
 
 .calendar_date_select .cds_header span {
-  font-size:15px;
+  fot-size:15px;
   color: black;
   font-weight: bold;
 }

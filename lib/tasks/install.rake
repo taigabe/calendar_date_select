@@ -11,7 +11,7 @@ namespace :calendardateselect do
      
     source_public_directories.each do |source_dir|
       source = File.join(File.dirname(__FILE__), "../public", source_dir)
-      dest = File.join(RAILS_ROOT, "public", source_dir)
+      dest = File.join(Rails.root.to_s, "public", source_dir)
       FileUtils.mkdir_p(dest)
       FileUtils.cp(Dir.glob(source+'/*.*'), dest)
       puts "** Populating directory: #{dest}"
